@@ -71,7 +71,7 @@ export default function Home() {
         <header className="mb-6 text-center">
           <h1 className="text-2xl font-bold text-emerald-600 dark:text-emerald-400 flex items-center justify-center">
             <Terminal className="mr-2 h-6 w-6" />
-            Developer Meeting Scheduler
+             Meeting Scheduler
           </h1>
         </header>
 
@@ -145,7 +145,7 @@ export default function Home() {
                       <Button
                         variant="outline"
                         className={cn(
-                          "w-full justify-start text-left font-normal border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-700/50 hover:bg-zinc-100 dark:hover:bg-zinc-700",
+                          "w-full font-normal border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-700/50 hover:bg-zinc-100 dark:hover:bg-zinc-700",
                           !date && "text-zinc-500 dark:text-zinc-400"
                         )}
                       >
